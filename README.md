@@ -2,12 +2,12 @@
 Let's get started!
 
 
-# Environment set up for WebValley2021 on Azure Lab
+# Environment set up for WebValley2022 on Azure Lab
 
-## Are you a Windows user?
-### Open Windows PowerShell with Administratory Rights
-
-`Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0`
+>## Are you a Windows user?
+>### Open Windows PowerShell with Administratory Rights
+>
+>`# Add-WindowsCapability -Online -Name OpenSSH.Client~~~~0.0.1.0`
 
 ## Open a terminal and
 ## connect to the virtual machine (VM)
