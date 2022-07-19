@@ -20,3 +20,5 @@ Let's get started!
 `jupyter lab --no-browser`
 
 Navigate to http://localhost:8888/lab
+
+Hi from Leo and Nik
