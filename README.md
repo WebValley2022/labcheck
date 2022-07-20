@@ -20,3 +20,23 @@ Let's get started!
 `jupyter lab --no-browser`
 
 Navigate to http://localhost:8888/lab
+
+# Re-activate conda
+```bash
+sudo ln -s /anaconda/etc/profile.d/conda.sh /etc/profile.d/conda.sh
+
+echo ". /etc/profile.d/conda.sh" >> ~/.bashrc
+echo "conda activate" >> ~/.bashrc
+
+# For those who use zsh
+# echo ". /etc/profile.d/conda.sh" >> ~/.zshrc
+# echo "conda activate" >> ~/.zshrc
+
+sudo sh -c "echo c.NotebookApp.certfile = u\'\' >> /usr/local/etc/jupyter/jupyter_notebook_config.py"
+sudo sh -c "echo c.NotebookApp.keyfile = u\'\' >> /usr/local/etc/jupyter/jupyter_notebook_config.py"
+
+# once logged in
+# conda activate py38_default
+```
+
+
